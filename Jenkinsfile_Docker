@@ -8,7 +8,7 @@ agent any
              }
       stage(Docker-build){
          steps{
-            sh 'docker build -t avi .
+            sh 'docker build -t avi . '
               }
              }
            }
