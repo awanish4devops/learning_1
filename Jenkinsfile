@@ -3,7 +3,7 @@ agent any
     stages {
        stage(SCM){
          steps{
-            git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+            git 'https://github.com/awanish4devops/learning_1.git'
               }
              }
            }
